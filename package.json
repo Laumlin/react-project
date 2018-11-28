@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/Laumlin/react-project/issues"
   },
-  "homepage": "https://github.com/Laumlin/react-project#readme"
+  "homepage": "https://github.com/Laumlin/react-project#readme",
+  "devDependencies": {}
 }
