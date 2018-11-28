@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "cd server && json-server db.json -w -p 3000",
+    "dev": "roadhog server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
     "url": "https://github.com/Laumlin/react-project/issues"
   },
   "homepage": "https://github.com/Laumlin/react-project#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1"
+  }
 }
